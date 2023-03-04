@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "442624031928",
+    "project_id": "zone-interesting",
+    "storage_bucket": "zone-interesting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442624031928:android:3b04c89ea806792cf9484d",
+        "android_client_info": {
+          "package_name": "com.enter7ainer.interesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442624031928-cev3tul66fi34d8ku7mbdqgt59u9nodj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgly0mSqyBQLI-2RqTtaOoidcjUIJ1fGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442624031928-cev3tul66fi34d8ku7mbdqgt59u9nodj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

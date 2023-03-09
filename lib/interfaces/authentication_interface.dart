@@ -5,10 +5,19 @@
 ///**************************************************************************///
 
 /// Working directory: */interesting/lib/interfaces/authentication_interface.dart
+import 'package:flutter/material.dart';
 
-/// This class defines the user interface for authentication in our application,
+/// This class defines the user [interface] for authentication in our application,
 /// providing interactivity to register, reset, sign in and out of user account(s).
 
+class AuthenticationInterface extends StatelessWidget {
+  const AuthenticationInterface({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
 
 /**
  * @COPYRIGHT (c) 2023. Thomas EC. Smith : https://www.TECSmith.info

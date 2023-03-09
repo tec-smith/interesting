@@ -6,9 +6,29 @@
 
 /// Working directory: */interesting/lib/main.dart
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/services.dart';
+import 'package:interesting/services/advert_service.dart';
+import 'package:interesting/utilities/configuration_utility.dart';
 
-void main() {
-  runApp(const MyApp());
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
+  /// Set the device display orientation.
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]);
+
+  /// Query the mobile advertising service.
+  if(ConfigurationUtility.admobEnabled == true) {
+
+    /// Run the application with adverts.
+    await AdvertService.init();
+    runApp(const MyApp());
+
+    /// Run the application without adverts.
+  } else { runApp(const MyApp()); }
 }
 
 /// This class defines what happens when our application starts up,
@@ -21,7 +41,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Interesting',
       theme: ThemeData(
         // This is the theme of your application.
         //

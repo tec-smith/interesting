@@ -5,10 +5,9 @@
 ///**************************************************************************///
 
 /// Working directory: */interesting/lib/screens/feeding_screen.dart
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter/material.dart';
 
-/// This class defines the layout screen of the [Feed] within our application,
+/// This class defines the layout [screen] of the content feed within our application,
 /// and provides interfaces to display content from the database(s).
 
 class FeedingScreen extends StatelessWidget {

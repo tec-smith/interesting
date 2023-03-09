@@ -1,8 +1,10 @@
+<a href="https://github.com/tec-smith/interesting"><img src="./build_passed_badge.svg" alt="Build Status"></a>
+
 # interesting
 
 Fundementally a template for a social application built using Dart, with the most common user experiences and functionality one would expect from a platform of that type, baked in, with minimal plugin dependancies!
 
-[Download](#) the Android build from the Google app store, or visit the [Website](#), should you wish to see a demonstration of this project in the wild. I'd love to get your feedback.
+[Download](#) the Android build from the Google app store, or visit the [Website](https://interesting.zone), should you wish to see a demonstration of this project in the wild. I'd love to get your feedback.
 
 ## functionality
 
@@ -45,8 +47,12 @@ Here is a detailed list of functionalities that are presently included in this r
 
 ### changes
 
-v.1.0.0+1: 2023-03-28
+v.1.0.0+1: 2023-03-04
 + Initial commit to Github!
+
+v.1.0.1+2: 2023-03-10
++ Added authentication routines, refactored code and updated screen display.
++ Removed unnecessary files and cleaned up project configuration.
 
 ## documentation
 
@@ -59,4 +65,4 @@ You are advised to view the ``pubspec.yaml`` for build information, including pl
 Your feedback and/or technical expertise are valuable, and I actively encourage your constructive contributions to making this project a great starting point for any budding Dart programmers! Should you contribute to this project, you shall be included within the credits below. Thank you very much.
 
 ### credits
-[Thomas EC. Smith](https://TECSmith.info) - Sytems Architect | Software Engineer
+[Thomas EC. Smith](https://TECSmith.info) - Systems Architect | Software Engineer

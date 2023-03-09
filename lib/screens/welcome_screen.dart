@@ -5,10 +5,9 @@
 ///**************************************************************************///
 
 /// Working directory: */interesting/lib/screens/welcome_screen.dart
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter/material.dart';
 
-/// This class defines the layout screen of the [Index] within our application,
+/// This class defines the layout [screen] of the landing page within our application,
 /// and provides interfaces to display content from the database(s).
 
 class WelcomeScreen extends StatelessWidget {
